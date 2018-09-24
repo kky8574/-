@@ -247,7 +247,7 @@ markdown 문법
 <br> -------------
 
 * 글머리: 1~6까지만 지원
-> # This is a H1
+<br> # This is a H1
 <br> ## This is a H2
 <br> ### This is a H3
 <br> #### This is a H4
