@@ -454,6 +454,7 @@ __double underscores__
 
 
 ## 9. 표
+* 표 만들기
 ```
 Col1|Col2
 ---|---
@@ -466,6 +467,16 @@ Col1|Col2
 aaa1|aaa2
 bbbbb1|bbbbb2 
 c1|c2
+
+* 표 정렬하기
+```
+| Header 1 | Header 2 | Header 3 |
+| :-------- | :--------: | --------: |
+| Left | Center | Right |
+```
+| Header 1 | Header 2 | Header 3 |
+| :-------- | :--------: | --------: |
+| Left | Center | Right |
 
 
 ## 10. 글자 기본 포맷
@@ -486,10 +497,6 @@ _Italic_
 
 ~~Cancel~~
 
-
-## 11. 색상 넣기
-```<span style="color:red">내용</span>```
-<span style="color:red">내용</span>
 
 
 
