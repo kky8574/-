@@ -239,8 +239,8 @@ markdown 문법
 
 ## 헤더
 * 큰제목: 문서 제목
-> This is an H1
-<br>=============
+> This is an H1 
+<br> =============
 
 * 작은제목: 문서 부제목
 > This is an H2
