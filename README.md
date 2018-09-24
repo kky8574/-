@@ -237,7 +237,7 @@ markdown 문법
 
 * Markdown은 텍스트 기반의 마크업언어로 2004년 존그루버에 의해 만들어졌으며 쉽게 쓰고 읽을 수 있으며 HTML로 변환이 가능하다. 특수기호와 문자를 이용한 매우 간단한 구조의 문법을 사용하여 웹에서도 보다 빠르게 컨텐츠를 작성하고 보다 직관적으로 인식할 수 있다. 
 
-## 1 헤더
+## 1. 헤더
 * 큰제목: 문서 제목
 
 This is an H1  
@@ -267,7 +267,7 @@ This is an H2
 ###### This is a H6
 ####### This is a 7.
 
-## 2 BlockQuote
+## 2. BlockQuote
 이메일에서 사용하는 ```>``` 블럭인용문자를 이용한다.
 ```
 > This is a blockqute.
@@ -283,7 +283,7 @@ This is an H2
 >	code
 >	```
 
-## 3 목록
+## 3. 목록
 ### ● 순서있는 목록(번호)
 순서있는 목록은 숫자와 점을 사용한다.
 ```
@@ -346,7 +346,7 @@ This is an H2
     	+ 3단계
 			= 4단계
 
-## 4 코드```<pre><code></code></pre>```
+## 4. 코드```<pre><code></code></pre>```
 4개의 공백 또는 하나의 탭으로 들여쓰기를 만나면 변환되기 시작하여 들여쓰지 않은 행을 만날때까지 변환이 계속된다.
 
 > 한줄 띄어쓰면 인식이 제대로 안되는 문제가 발생하곤 합니다.
@@ -372,7 +372,7 @@ This is a normal paragraph:
     This is a code block.
 end code block.
 
-## 5 수평선```<hr/>```
+## 5. 수평선```<hr/>```
 아래 줄은 모두 수평선을 만든다. 마크다운 문서를 미리보기로 출력할 때 *페이지 나누기* 용도로 많이 사용한다.
 ```
 * * *
@@ -397,7 +397,7 @@ end code block.
 ---------------------------------------
 
 
-## 6 링크
+## 6. 링크
 * 참조링크
 
 ```
@@ -426,7 +426,7 @@ Link: [Google](https://google.com, "google link")
 <http://example.com/>
 <address@example.com>
 
-## 7 강조
+## 7. 강조
 ```
 *single asterisks*
 _single underscores_
@@ -442,7 +442,7 @@ __double underscores__
 ++underline++
 ~~cancelline~~
 
-## 8 이미지
+## 8. 이미지
 ```
 ![Alt text](/path/to/img.jpg)
 ![Alt text](/path/to/img.jpg "Optional title")
@@ -452,7 +452,7 @@ __double underscores__
 
 사이즈 조절 기능은 없기 때문에 ```<img width="" height=""></img>```를 이용한다.
 
-## 9 표
+## 9. 표
 ```
 Col1|Col2
 ---|---
@@ -465,5 +465,27 @@ Col1|Col2
 aaa1|aaa2
 bbbbb1|bbbbb2 
 c1|c2
+
+
+## 10. 글자 기본 포맷
+```
+**Bold**
+__Bold__
+*Italic*
+_Italic_
+~~Cancel~~
+```
+**Bold**
+__Bold__
+*Italic*
+_Italic_
+~~Cancel~~
+
+## 11. 색상 넣기
+'''<span style="color:red">내용</span>'''
+<span style="color:red">내용</span>
+
+
+
 
 
