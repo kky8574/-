@@ -305,7 +305,6 @@ This is an H2
 3. 세번째
 2. 두번째
 
-딱히 개선될 것 같지는 않다. 존 그루버가 신경안쓰고 있다고...
 
 ### ● 순서없는 목록(글머리 기호)
 ```
@@ -442,6 +441,7 @@ __double underscores__
 ++underline++
 ~~cancelline~~
 
+
 ## 8. 이미지
 ```
 ![Alt text](/path/to/img.jpg)
@@ -451,6 +451,7 @@ __double underscores__
 ![석촌호수 러버덕](http://cfile6.uf.tistory.com/image/2426E646543C9B4532C7B0 "RubberDuck")
 
 사이즈 조절 기능은 없기 때문에 ```<img width="" height=""></img>```를 이용한다.
+
 
 ## 9. 표
 ```
@@ -476,13 +477,18 @@ _Italic_
 ~~Cancel~~
 ```
 **Bold**
+
 __Bold__
+
 *Italic*
+
 _Italic_
+
 ~~Cancel~~
 
+
 ## 11. 색상 넣기
-'''<span style="color:red">내용</span>'''
+```<span style="color:red">내용</span>```
 <span style="color:red">내용</span>
 
 
